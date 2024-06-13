@@ -3,9 +3,6 @@ import React, { useState, Suspense, lazy } from "react";
 const MoreMedia = lazy(() => import("../components/MoreMedia"));
 // import MoreMedia from "../components/MoreMedia";
 
-// i am doing lazy important to improve peformance
-// suspense is a part of lazy laodings
-
 // movie page
 const Movie = () => {
   // initial page numbers

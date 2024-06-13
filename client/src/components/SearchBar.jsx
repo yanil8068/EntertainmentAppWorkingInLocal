@@ -10,11 +10,6 @@ const SearchBar = () => {
 
   const { register, handleSubmit, reset } = useForm();
 
-  // why it is giving undefined, is it due to search bar outside the routes
-  // const { mediaType, searchQuery } = useParams();
-  // console.log(mediaType)
-  // console.log(searchQuery)
-
   // Function to handle form submission
   const onSubmit = (data) => {
     // Switch statement to handle different pathnames
